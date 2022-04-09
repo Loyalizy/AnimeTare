@@ -14,21 +14,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      initialRoute: "/",
-      getPages: [
-        GetPage(
-          name: "/",
-          page: () => HomePage(),
-          transition: Transition.rightToLeft,
-          transitionDuration: Duration(milliseconds: 500),
-        ),
-        GetPage(
-          name: "/Detail",
-          page: () => DetailPage(),
-          transition: Transition.rightToLeft,
-          transitionDuration: Duration(milliseconds: 500),
-        )
-      ],
       debugShowCheckedModeBanner: false,
       home: BaseNavigationBar(),
     );

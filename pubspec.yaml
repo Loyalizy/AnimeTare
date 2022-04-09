@@ -40,6 +40,8 @@ dependencies:
   get: ^4.3.8
   video_viewer: ^1.2.6
   url_launcher: ^6.0.20
+  expandable_text: ^2.3.0
+  google_fonts: ^2.2.1
 
 dev_dependencies:
   flutter_test:
